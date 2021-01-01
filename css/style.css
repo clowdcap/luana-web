@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* BOOT CSS */
+
+html, body{
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.center {
+    max-width: 1400px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.w33 {
+    width: 33.3%;
+    padding: 0 10px;
+}
+
+.w40 {
+    width: 40%;
+    padding: 0 2%;
+}
+
+.w50 {
+    padding: 0 2%;
+    width: 50%;
+}
+
+.w60 {
+    width: 60%;
+    padding: 0 2%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    height: 35px;
+    background-color: tomato;   
+}
+
+.logo h3 {
+    color: white;
+    font-size: 21px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+.logo h3 span {
+    font-weight: 500;
+}
+
+nav.menu ul {
+    list-style-type: none;
+    display: flex;    
+}
+
+nav.menu ul li {
+    padding-top: 2px;
+    padding-left: 40px;
+    padding-right: 10px;
+    font-weight: 300;
+}
+
+nav.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+}
+
+/* capa */
+
+section.capa {
+    width: 100%;
+    background-color: rgb(231, 176, 156);
+    display: flex;
+    padding: 130px 0;
+}
+
+section.capa .conteudo-capa {
+    display: inline-flex;
+}
+
+.capa-img {
+    width: 100%;
+    height: 100%;
+    margin: 2% 2%;
+}
+
+.capa-txt h2.title {
+    font-size: 35px;
+    padding: 0 2%;
+    padding-bottom: 20px;
+}
+
+.capa-txt p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 2%;
+}
+
+section.capa .capa-img img {
+    width: 100%;
+}
+
+
+/* destaques */
+
+section.destaques {
+    width: 100%;
+    padding: 60px 0;
+}
+
+section.destaques .box h3{
+    font-size: 80px;
+    text-align: center;
+    color: black;
+}
+
+section.destaques .box h4 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section.destaques .box p {
+    text-align: justify;
+    padding: 15px 5%;
+}
+
+/* informacao */
+
+section.informacao {
+    width: 100%;
+    padding: 80px 0;
+    background-color: rgb(231, 176, 156);
+}
+
+section.informacao h2 {
+    text-align: center;
+    font-weight: 500;
+}
+
+section.informacao p {
+    text-align: justify;
+    padding: 15px 5%;
+}
+
+section.informacao .apoiadores {
+    text-align: center;
+}
+
+section.informacao .apoiadores img {
+    text-align: center;
+    height: 200px ;
+    width: 230px;
+    padding: 0 35px;
+}
+
+/* opotunidade */
+
+section .container {
+    width: 100%;
+    padding: 100px 0;
+}
+
+section .container h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+
+section .container h3 {
+    font-size: 25px;
+    padding-top: 55px;
+    text-align: center;
+}
+
+section .container p {
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* depoimentos */
+
+section.depoimentos {
+    width: 100%;
+    padding: 60px 0;
+    background-color: rgb(231, 176, 156);
+}
+
+section.depoimentos .dep h3 {
+    font-size: 80px;    
+    text-align: center;
+    color: white;
+}
+
+section.depoimentos .dep h4 {
+    font-size: 25px;    
+    text-align: center;
+}
+
+section.depoimentos .dep p {
+    font-size: 16px;
+    text-align: justify;
+    padding: 2% 5%;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    padding: 5px 0;
+    background-color: tomato;
+}
+
+footer h3 {
+    text-align: center;
+    font-size: 15px;
+}
+
+footer .fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+
+/* page contato */
+
+/* capa */
+
+section.capa .matricula {
+    text-align: center;
+    border-right: 3px solid tomato;
+}
+
+section.capa .matricula h4{
+    color: tomato;
+    text-decoration: underline;
+}
+
+section.capa .matricula h3 i {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+}
+section.capa .matricula h2 {
+    font-size: 28px;
+}
+
+section.capa .matricula p {
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+section.capa .matricula p.desc {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+section.capa .matricula input {
+    text-align: center;
+    font-size: 18px;
+    color: #444;
+    font-weight: 300;
+    border-radius: 15px;
+    border: 0;
+}
+
+section.capa .matricula input[type=text] {
+    width: 50%;
+    height: 40px;
+}
+
+section.capa .matricula input[type=email] {
+    width: 50%;
+    height: 40px;
+}
+
+section.capa .matricula input.ddd {
+    width: 12%;
+    height: 40px;
+}
+
+section.capa .matricula input.tel {
+    width: 37%;
+    height: 40px;
+}
+
+section.capa .matricula input[type=submit] {
+    width: 50%;
+    height: 40px;
+    background-color: tomato;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    margin-top: 5px;
+}
+
+
+section.capa .contato {
+    text-align: center;  
+}
+
+section.capa .contato p {
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+section.capa .contato h3 {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+}
+
+section.capa .contato form {
+    padding-top: 35px;
+}
+
+section.capa .contato input[type=text] {
+    width: 50%;
+    height: 40px;
+}
+
+section.capa .contato input[type=email] {
+    width: 50%;
+    height: 40px;
+}
+
+section.capa .contato textarea {
+    width: 50%;
+    max-width: 50%;
+    height: 80px;
+    min-height: 40px;
+    max-height: 200px;
+}
+
+section.capa .contato input[type=submit] {
+    width: 50%;
+    height: 40px;
+    background-color: tomato;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    margin-top: 25px;
+}
+
+section.capa .contato input, textarea {
+    text-align: center;
+    font-size: 18px;
+    color: #444;
+    font-weight: 300;
+    border-radius: 15px;
+    border: 0;
+}
+
+
+
+/* responsivo */
+
+@media screen and (max-width: 1000px){
+    section.capa .conteudo-capa{
+        display: block;  
+        width: 100%;
+        text-align: center; 
+    }
+
+    section.capa .capa-txt {
+        width: 100%;
+        text-align: center;
+    }
+
+    section.capa .matricula {
+        border-right: 0;
+        padding-bottom: 35px;
+        border-bottom: 3px solid tomato;
+    }
+    section.capa .matricula, .contato {
+        width: 100%;
+
+    }
+    
+}
+
+@media screen and (max-width: 780px) {
+    section.destaques .box {
+        width: 100%;
+        padding: 35px;
+    }
+
+    section.destaques .box p {
+        width: 100%;
+        padding: 10px 5%
+    }
+
+    section.informacao .proposito {
+        width: 100%;
+        padding: 25px 5%;
+    }
+
+    section.informacao .apoio {
+        width: 100%;
+        padding: 25px 5%;
+    }
+
+    section.informacao .apoio img{
+        margin: 30px 0;
+    }
+
+    section.depoimentos .dep {
+        width: 100%;
+        padding: 35px 5%;
+    }
+}
